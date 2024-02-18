@@ -1,0 +1,15 @@
+<body>
+    <header>
+        <!-- Tu header con logo y menú de navegación -->
+    </header>
+    
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Bienvenido a [Nombre de tu empresa]</h1>
+            <p>Descripción breve de la página web...</p>
+            <a href="#contacto" class="cta">Contáctanos</a>
+        </div>
+    </section>
+
+    <!-- Aquí continuaría el resto de tu página web -->
+</body>
