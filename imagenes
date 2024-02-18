@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Proyectos</title>
+    <style>
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .project {
+            position: relative;
+            overflow: hidden;
+        }
+        .project img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+        .project:hover img {
+            transform: scale(1.1);
+        }
+        .project a {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .project a:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <section class="gallery">
+        <div class="project">
+            <img src="imagen1.jpg" alt="Proyecto 1">
+            <a href="#">Proyecto 1</a>
+        </div>
+        <div class="project">
+            <img src="imagen2.jpg" alt="Proyecto 2">
+            <a href="#">Proyecto 2</a>
+        </div>
+        <div class="project">
+            <img src="imagen3.jpg" alt="Proyecto 3">
+            <a href="#">Proyecto 3</a>
+        </div>
+        <!-- Repite este bloque para cada proyecto -->
+    </section>
+</body>
+</html>
