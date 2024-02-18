@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categorías</title>
+    <style>
+        .categoria {
+            display: inline-block;
+            width: 200px;
+            height: 150px;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            text-decoration: none;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <a href="#" class="categoria">Diseño web</a>
+        <a href="#" class="categoria">Desarrollo web</a>
+        <a href="#" class="categoria">Desarrollo de apps</a>
+        <a href="#" class="categoria">Desarrollo WordPress</a>
+        <a href="#" class="categoria">Marketing Digital</a>
+    </section>
+</body>
+</html>
