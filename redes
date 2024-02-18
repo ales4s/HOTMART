@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Ejemplo</title>
+    <style>
+        /* Estilos CSS para el footer */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+
+        /* Estilos para los iconos de redes sociales */
+        .social-icons {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        /* Estilos para los iconos de redes sociales */
+        .social-icon {
+            color: white;
+            font-size: 24px;
+        }
+
+        /* Estilos para los enlaces */
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Footer -->
+    <footer>
+        <!-- Columna 1 -->
+        <div>
+            <h4>Nombre de la Empresa</h4>
+            <p>Descripción breve de la empresa</p>
+        </div>
+        <!-- Columna 2 -->
+        <div>
+            <h4>Servicios</h4>
+            <ul>
+                <li><a href="#">Servicio 1</a></li>
+                <li><a href="#">Servicio 2</a></li>
+                <li><a href="#">Servicio 3</a></li>
+            </ul>
+        </div>
+        <!-- Columna 3 -->
+        <div>
+            <h4>Proyectos</h4>
+            <ul>
+                <li><a href="#">Proyecto 1</a></li>
+                <li><a href="#">Proyecto 2</a></li>
+                <li><a href="#">Proyecto 3</a></li>
+            </ul>
+        </div>
+        <!-- Columna 4 -->
+        <div>
+            <h4>Redes Sociales</h4>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-instagram social-icon"></i></a>
+                <a href="#"><i class="fab fa-facebook social-icon"></i></a>
+                <a href="#"><i class="fab fa-twitter social-icon"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
